@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Raleway:wght@400;500&display=swap');
 
 h1 {
+  color: white;
   font-family: 'Paytone One', sans-serif;
+  text-align: center;
 }
 
 p {
