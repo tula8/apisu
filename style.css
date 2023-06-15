@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Raleway:wght@400;500&display=swap');
 
+/* Font setting */
 h1 {
   color: white;
   font-family: 'Paytone One', sans-serif;
@@ -14,12 +15,13 @@ p {
       body {
         background-color: #b0abd4;
       }
+/* Nav Bar formatting */
       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: white;
       }
       li {
         float: left;
@@ -27,7 +29,8 @@ p {
 
       li a {
         display: block;
-        color: white;
+        color: #b0abd4;
+        font-family: 'Raleway', sans-serif;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -42,4 +45,26 @@ p {
       }
       .top {
         margin-top: 20px;
+      }
+/* Gallery Formatting */
+    div.gallery {
+        margin: 30px 20px 20px 50px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 400px;
+        
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      #pic {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
       }
